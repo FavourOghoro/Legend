@@ -1,0 +1,111 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color: white;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  padding-bottom:20px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:center;
+  margin-top:10px;
+}
+
+
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+.current {
+    float: right;
+}
+
+.page-title {
+    text-align: center;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+} 
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+@media(max-width: 768px){
+  header #branding,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+}
+
+.contact {
+    background:#35424a;
+    text-align: center;
+    color: white;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.try {
+   background: black;
+}
+
+.first-paragraph::first-letter {
+color: orangered;
+ text-shadow: 0 0 3px black;
+ font-size: 30px;
+}
+
+.second {
+    color: orangered;
+}
